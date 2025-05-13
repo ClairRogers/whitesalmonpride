@@ -1,0 +1,168 @@
+body {
+  font-family: 'Reem Kufi', sans-serif;
+  background-color: #27202b;
+  color: #c996a2;
+  font-size: 14px;
+  /* font-size: 30px; */
+}
+
+p {
+  letter-spacing: .05rem;
+}
+
+li {
+  letter-spacing: .025rem;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #b9ceca;
+}
+
+a {
+  color: #ebec49;
+}
+a:hover {
+  color: #b9ceca;
+}
+
+b {
+  color: #e6acba;
+}
+
+.nav-tabs .nav-link {
+  background-color: #532735;
+  color: #b9ceca;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #672F41;
+  color: #b9ceca;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  background-color: #75364a;
+}
+
+.bg {
+  background-color: #672F41;
+  height: 100%;
+  overflow: auto;
+}
+
+.bg-tab {
+  background-color: #672F41;
+  height: 290px;
+  overflow: auto;
+}
+
+.bg-tab2 {
+  background-color: #672F41;
+  height: 583px;
+  overflow: auto;
+}
+
+.bg-rules {
+  background-color: #672F41;
+  height: 328px;
+  overflow: auto;
+}
+
+.bg-image {
+  background-image: url("https://media.giphy.com/media/UC8DbMqXvkpd6/giphy.gif");
+  background-size: cover;
+  background-position: center;
+  background-color: #672F41;
+  height: 100%;
+  overflow: auto;
+}
+
+.maintitle {
+  font-size: 40px;
+  font-family: 'Limelight', sans-serif;
+}
+
+.maintitlegraphic {
+  font-size: 45px;
+  font-style: italic;
+  font-family: 'Limelight', sans-serif;
+  color: #ebec49;
+}
+
+.maintitle2 {
+  font-size: 20px;
+  font-family: 'Limelight', sans-serif;
+  color: #ebec49;
+}
+
+.titles {
+  font-size: 30px;
+  font-family: 'Limelight', sans-serif;
+  color: #ebec49;
+}
+
+.topbar {
+  background-color: #672F41;
+  margin: 5px 0px 5px 0px;
+  height: 150px;
+}
+
+.topbar2 {
+  background-color: #672F41;
+  margin: 5px 0px 5px 0px;
+  height: 70px;
+}
+
+.height1 {
+  height: 700px;
+}
+
+.height2 {
+  height: 400px;
+  margin: 10px 0px 5px 0px;
+}
+
+.tenper {
+  height: 10%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.eightper {
+  height: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fourper {
+  height: 40%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.allper {
+  height: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #35283c; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b9ceca; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d2e7e3; 
+}
